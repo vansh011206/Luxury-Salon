@@ -22,7 +22,7 @@ export const teamData: TeamMember[] = [
     certifications: ["L'Oréal Color Specialist", "Schwarzkopf Master Colorist"],
     bio: "Aria's visionary cuts and coloring techniques have set new benchmarks in Delhi's high-fashion circles. Trusted by Bollywood's finest and elite patrons alike.",
     instagram: "aria.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600&auto=format&fit=crop"
   },
   {
     id: "simran-oberoi",
@@ -33,7 +33,7 @@ export const teamData: TeamMember[] = [
     specialization: ["Balayage", "Lived-in Color", "Fashion Colors", "Color Correction"],
     bio: "Hailed as 'the color queen of Delhi,' Simran specializes in customized balayage that grows out seamlessly, matching her clients' personalities and styles.",
     instagram: "simran.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=600&auto=format&fit=crop"
   },
   {
     id: "vanya-seth",
@@ -44,7 +44,7 @@ export const teamData: TeamMember[] = [
     specialization: ["Precision Cuts", "Textured Styles", "Editorial Styling"],
     bio: "Vanya delivers razor-sharp cuts, architectural shapes, and impeccable styling services that keep clients feeling fresh, modern, and confident.",
     instagram: "vanya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1594744803329-e58b31de215f?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1622353912185-3b9e4a3507d4?q=80&w=600&auto=format&fit=crop"
   },
   {
     id: "ananya-kapoor",
@@ -55,7 +55,7 @@ export const teamData: TeamMember[] = [
     specialization: ["Bridal Styling", "Occasion Hair", "Hair Accessories"],
     bio: "With over 1,500 brides transformed, Ananya is the designer of dream wedding tresses. She combines traditional elegance with modern editorial glamour.",
     instagram: "ananya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1620577821666-b33379cc7a7f?q=80&w=600&auto=format&fit=crop"
   },
   {
     id: "rhea-malhotra",
@@ -66,7 +66,7 @@ export const teamData: TeamMember[] = [
     specialization: ["Keratin & Smoothening", "Hair Extensions", "Hair Botox"],
     bio: "Rhea's expertise lies in completely transforming hair texture. Whether adding stunning volume with micro-links or restoring shine, her precision is unmatched.",
     instagram: "rhea.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1635488641636-5d93d3957262?q=80&w=600&auto=format&fit=crop"
   },
   {
     id: "priya-sharma",
@@ -77,6 +77,6 @@ export const teamData: TeamMember[] = [
     specialization: ["Hair Fall Solutions", "Scalp Disorders", "PRP Consultation", "Holistic Hair Care"],
     bio: "Priya combines scientific trichological analysis with holistic wellness to treat hair and scalp conditions from the root, reviving overall hair health.",
     instagram: "priya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1617922001439-4a2e65e2f328?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1594744803329-e58b31de215f?q=80&w=600&auto=format&fit=crop"
   }
 ];
