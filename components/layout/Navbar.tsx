@@ -92,13 +92,13 @@ export default function Navbar() {
           {/* Right Action buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:+919876543210"
+              href="tel:+91-882675336"
               className={`hidden lg:flex items-center gap-2 transition-colors duration-300 font-outfit text-xs tracking-wider ${
                 showTransparent ? "text-white/95 hover:text-gold" : "text-charcoal/85 hover:text-sage"
               }`}
             >
               <Phone className={`w-4 h-4 ${showTransparent ? "text-gold" : "text-sage"}`} />
-              +91 98765 43210
+              +91-882675336
             </a>
 
             <div className="hidden sm:block">

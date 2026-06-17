@@ -537,7 +537,7 @@ function BookingForm() {
                             });
                           }
                         }}
-                        placeholder="e.g. +91 98765 43210"
+                        placeholder="e.g. +91-882675336"
                         className={`w-full bg-primary border ${errors.phone ? "border-red-500" : "border-sage/20 focus:border-sage"} px-5 py-3.5 text-sm text-charcoal focus:outline-none transition-colors duration-300 rounded-full placeholder-cream/45`}
                       />
                       {errors.phone && <p className="text-red-500 text-xs mt-1.5 font-outfit pl-2">{errors.phone}</p>}
@@ -696,8 +696,8 @@ function BookingForm() {
                     <MessageCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
                     <div>
                       <span className="text-cream/70 text-[10px] uppercase block tracking-wider font-semibold">Book via WhatsApp</span>
-                      <a href="https://wa.me/919876543210" className="text-charcoal hover:text-sage transition-colors font-semibold text-sm">
-                        +91 98765 43210
+                      <a href="https://wa.me/91882675336" className="text-charcoal hover:text-sage transition-colors font-semibold text-sm">
+                        +91-882675336
                       </a>
                     </div>
                   </li>
@@ -706,8 +706,8 @@ function BookingForm() {
                     <Phone className="w-5 h-5 text-sage flex-shrink-0" />
                     <div>
                       <span className="text-cream/70 text-[10px] uppercase block tracking-wider font-semibold">Call Our Concierge</span>
-                      <a href="tel:+919876543210" className="text-charcoal hover:text-sage transition-colors font-semibold text-sm">
-                        +91 98765 43210
+                      <a href="tel:+91-882675336" className="text-charcoal hover:text-sage transition-colors font-semibold text-sm">
+                        +91-882675336
                       </a>
                     </div>
                   </li>

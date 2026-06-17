@@ -46,11 +46,11 @@ export default function BookingCTA() {
             </Button>
             
             <a
-              href="tel:+919876543210"
+              href="tel:+91-882675336"
               className="font-outfit text-sm tracking-widest uppercase font-semibold text-gold hover:text-white transition-colors duration-300 flex items-center gap-2"
             >
               <Phone className="w-4 h-4 text-gold" />
-              Call +91 98765 43210
+              Call +91-882675336
             </a>
           </div>
 

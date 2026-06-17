@@ -25,7 +25,7 @@ export default function ProductCard({
 }: ProductCardProps) {
   const defaultEnquiry = () => {
     const message = `Hi, I am interested in purchasing the ${brand} - ${name} (${price}) from Glossy Salon. Please let me know its availability.`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/91882675336?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (

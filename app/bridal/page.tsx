@@ -368,7 +368,7 @@ export default function BridalPage() {
               Book Consultation
             </Button>
             <a
-              href="https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20Bridal%20Hair%20packages%20at%20Glossy%20Salon."
+              href="https://wa.me/91882675336?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20Bridal%20Hair%20packages%20at%20Glossy%20Salon."
               target="_blank"
               rel="noopener noreferrer"
               className="text-sage font-outfit text-sm tracking-widest uppercase font-semibold flex items-center gap-2 hover:text-sage-dark transition-colors"

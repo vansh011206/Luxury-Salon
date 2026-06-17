@@ -98,12 +98,12 @@ export default function ContactPage() {
                   <div>
                     <h4 className="text-charcoal font-playfair text-base font-semibold mb-1">Call & WhatsApp</h4>
                     <p className="text-cream font-outfit text-sm font-light flex flex-col gap-1.5">
-                      <a href="tel:+919876543210" className="hover:text-sage transition-colors">
-                        Phone: +91 98765 43210
+                      <a href="tel:+91-882675336" className="hover:text-sage transition-colors">
+                        Phone: +91-882675336
                       </a>
-                      <a href="https://wa.me/919876543210" className="hover:text-sage transition-colors flex items-center gap-1.5 text-emerald-600 font-medium">
+                      <a href="https://wa.me/91882675336" className="hover:text-sage transition-colors flex items-center gap-1.5 text-emerald-600 font-medium">
                         <MessageCircle className="w-4 h-4 fill-emerald-600 stroke-none" />
-                        WhatsApp: +91 98765 43210
+                        WhatsApp: +91-882675336
                       </a>
                     </p>
                   </div>

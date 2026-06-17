@@ -108,11 +108,11 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             className="flex flex-col items-center gap-5 mt-10 border-t border-secondary pt-6"
           >
             <a
-              href="tel:+919876543210"
+              href="tel:+91-882675336"
               className="flex items-center gap-2 text-sage hover:text-sage-dark transition-colors font-outfit text-sm font-semibold tracking-wider"
             >
               <Phone className="w-4 h-4" />
-              +91 98765 43210
+              +91-882675336
             </a>
 
             <div className="flex gap-6">
