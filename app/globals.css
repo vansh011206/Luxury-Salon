@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    @apply bg-primary text-cream font-outfit antialiased selection:bg-sage/10 selection:text-sage;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Tabular numbers for counters/stats */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F3EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #3D4A3E;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E3A2F;
+}
+
+/* Smooth Fade in animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Custom overlay vignettes for light imagery contrast */
+.luxury-overlay {
+  background: linear-gradient(to bottom, rgba(250, 249, 246, 0.15) 0%, rgba(250, 249, 246, 0.65) 60%, rgba(250, 249, 246, 1) 100%);
+}
+
+.banner-overlay {
+  background: linear-gradient(to right, rgba(250, 249, 246, 0.8) 0%, rgba(250, 249, 246, 0.3) 50%, rgba(250, 249, 246, 0.85) 100%);
+}
+
+/* Force dark overlay and prevent page scrolls on first load before React hydration */
+html.loading-first-time,
+html.loading-first-time body {
+  background-color: #1c1c1c !important;
+  overflow: hidden !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
