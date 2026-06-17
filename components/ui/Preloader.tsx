@@ -10,13 +10,6 @@ export default function Preloader() {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    const hasLoadedBefore = sessionStorage.getItem("glossy_loaded");
-    if (hasLoadedBefore) {
-      setLoading(false);
-      setIsVisible(false);
-      return;
-    }
-
     // Animate progress bar
     const progressInterval = setInterval(() => {
       setProgress((prev) => {

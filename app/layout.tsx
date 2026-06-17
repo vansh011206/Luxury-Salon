@@ -57,7 +57,7 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              if (typeof window !== 'undefined' && !sessionStorage.getItem("glossy_loaded")) {
+              if (typeof window !== 'undefined') {
                 document.documentElement.classList.add("loading-first-time");
                 var style = document.createElement('style');
                 style.id = 'preloader-temp-style';

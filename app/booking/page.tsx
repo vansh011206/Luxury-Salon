@@ -14,6 +14,7 @@ interface DropdownOption {
   value: string;
   label: string;
   details?: string;
+  imageUrl?: string;
 }
 
 interface CustomDropdownProps {
@@ -67,9 +68,22 @@ function CustomDropdown({
             : "border-sage/20 hover:border-sage/40 focus:border-sage cursor-pointer"
         }`}
       >
-        <span className={selectedOption ? "text-charcoal font-medium" : "text-cream/50"}>
-          {selectedOption ? selectedOption.label : placeholder}
-        </span>
+        <div className="flex items-center gap-3">
+          {selectedOption?.imageUrl && (
+            <div className="relative w-6 h-6 rounded-full overflow-hidden border border-sage/20 flex-shrink-0">
+              <Image
+                src={selectedOption.imageUrl}
+                alt={selectedOption.label}
+                fill
+                sizes="24px"
+                className="object-cover"
+              />
+            </div>
+          )}
+          <span className={selectedOption ? "text-charcoal font-medium" : "text-cream/50"}>
+            {selectedOption ? selectedOption.label : placeholder}
+          </span>
+        </div>
         <ChevronDown
           className={`w-4 h-4 text-sage/60 transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
@@ -114,11 +128,25 @@ function CustomDropdown({
                           {opt.label}
                         </span>
                       </div>
-                      {opt.details && (
-                        <span className={`text-[11px] font-outfit font-medium tracking-wide ${isSelected ? "text-sage" : "text-gold"}`}>
-                          {opt.details}
-                        </span>
-                      )}
+                      
+                      <div className="flex items-center gap-3">
+                        {opt.details && (
+                          <span className={`text-[11px] font-outfit font-medium tracking-wide ${isSelected ? "text-sage" : "text-gold"}`}>
+                            {opt.details}
+                          </span>
+                        )}
+                        {opt.imageUrl && (
+                          <div className="relative w-8 h-8 rounded-full overflow-hidden border border-sage/20 flex-shrink-0">
+                            <Image
+                              src={opt.imageUrl}
+                              alt={opt.label}
+                              fill
+                              sizes="32px"
+                              className="object-cover"
+                            />
+                          </div>
+                        )}
+                      </div>
                     </button>
                   );
                 })}
@@ -416,6 +444,7 @@ function BookingForm() {
       value: t.name,
       label: t.name,
       details: t.role.split(" ")[0],
+      imageUrl: t.imageUrl,
     })),
   ];
 
@@ -467,6 +496,7 @@ function BookingForm() {
     } else {
       setErrors({});
       setSuccess(true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -676,7 +706,13 @@ function BookingForm() {
                   <p className="text-cream/80 font-outfit text-xs max-w-sm mb-8 italic">
                     A WhatsApp confirmation with your stylist details and reservation ID will be sent to your number shortly.
                   </p>
-                  <Button onClick={() => setSuccess(false)} variant="secondary">
+                  <Button
+                    onClick={() => {
+                      setSuccess(false);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
+                    variant="secondary"
+                  >
                     Request Another Slot
                   </Button>
                 </div>
