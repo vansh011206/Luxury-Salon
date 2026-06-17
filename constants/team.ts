@@ -22,7 +22,18 @@ export const teamData: TeamMember[] = [
     certifications: ["L'Oréal Color Specialist", "Schwarzkopf Master Colorist"],
     bio: "Aria's visionary cuts and coloring techniques have set new benchmarks in Delhi's high-fashion circles. Trusted by Bollywood's finest and elite patrons alike.",
     instagram: "aria.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "/images/team/aria_khanna.png"
+  },
+  {
+    id: "kabir-malhotra",
+    name: "Kabir Malhotra",
+    role: "Master Barber & Grooming Expert",
+    experience: "11 Years",
+    training: "Toni & Guy Academy London",
+    specialization: ["Precision Fades", "Beard Sculpting", "Classic Cuts"],
+    bio: "Kabir's mastery of the razor and scissor has made him a household name among Delhi's elite gentlemen seeking impeccable fades and tailored grooming.",
+    instagram: "kabir.glossy",
+    imageUrl: "/images/team/kabir_malhotra.png"
   },
   {
     id: "simran-oberoi",
@@ -33,40 +44,18 @@ export const teamData: TeamMember[] = [
     specialization: ["Balayage", "Lived-in Color", "Fashion Colors", "Color Correction"],
     bio: "Hailed as 'the color queen of Delhi,' Simran specializes in customized balayage that grows out seamlessly, matching her clients' personalities and styles.",
     instagram: "simran.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "/images/team/simran_oberoi.png"
   },
   {
-    id: "vanya-seth",
-    name: "Vanya Seth",
-    role: "Master Stylist",
-    experience: "12 Years",
-    training: "Toni & Guy Academy London",
-    specialization: ["Precision Cuts", "Textured Styles", "Editorial Styling"],
-    bio: "Vanya delivers razor-sharp cuts, architectural shapes, and impeccable styling services that keep clients feeling fresh, modern, and confident.",
-    instagram: "vanya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1622353912185-3b9e4a3507d4?q=80&w=600&auto=format&fit=crop"
-  },
-  {
-    id: "ananya-kapoor",
-    name: "Ananya Kapoor",
-    role: "Bridal Specialist",
+    id: "rohan-verma",
+    name: "Rohan Verma",
+    role: "Senior Stylist & Grooming Expert",
     experience: "8 Years",
-    training: "Schwarzkopf Academy Mumbai & International Bridal Masterclasses",
-    specialization: ["Bridal Styling", "Occasion Hair", "Hair Accessories"],
-    bio: "With over 1,500 brides transformed, Ananya is the designer of dream wedding tresses. She combines traditional elegance with modern editorial glamour.",
-    instagram: "ananya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1620577821666-b33379cc7a7f?q=80&w=600&auto=format&fit=crop"
-  },
-  {
-    id: "rhea-malhotra",
-    name: "Rhea Malhotra",
-    role: "Texture & Extension Expert",
-    experience: "7 Years",
-    training: "Great Lengths Academy, Kérastase Institute",
-    specialization: ["Keratin & Smoothening", "Hair Extensions", "Hair Botox"],
-    bio: "Rhea's expertise lies in completely transforming hair texture. Whether adding stunning volume with micro-links or restoring shine, her precision is unmatched.",
-    instagram: "rhea.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1635488641636-5d93d3957262?q=80&w=600&auto=format&fit=crop"
+    training: "L'Oréal Academy Mumbai",
+    specialization: ["Modern Shag", "Textured Crops", "Lived-in Shaves"],
+    bio: "Rohan brings a modern, urban aesthetic to men's hair styling. He excels at texture and creating cuts that look effortlessly stylish.",
+    instagram: "rohan.glossy",
+    imageUrl: "/images/team/rohan_verma.png"
   },
   {
     id: "priya-sharma",
@@ -77,6 +66,17 @@ export const teamData: TeamMember[] = [
     specialization: ["Hair Fall Solutions", "Scalp Disorders", "PRP Consultation", "Holistic Hair Care"],
     bio: "Priya combines scientific trichological analysis with holistic wellness to treat hair and scalp conditions from the root, reviving overall hair health.",
     instagram: "priya.glossy",
-    imageUrl: "https://images.unsplash.com/photo-1594744803329-e58b31de215f?q=80&w=600&auto=format&fit=crop"
+    imageUrl: "/images/team/priya_sharma.png"
+  },
+  {
+    id: "arjun-mehta",
+    name: "Arjun Mehta",
+    role: "Texture & Creative Stylist",
+    experience: "10 Years",
+    training: "Vidal Sassoon Salon Series",
+    specialization: ["Creative Cuts", "Keratin Treatment", "Hair Design"],
+    bio: "Arjun is a magician with scissors. He combines architectural precision with fluid motion to craft custom hairstyles for modern tastes.",
+    instagram: "arjun.glossy",
+    imageUrl: "/images/team/arjun_mehta.png"
   }
 ];

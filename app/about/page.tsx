@@ -82,7 +82,7 @@ export default function AboutPage() {
             >
               <div className="absolute inset-4 border border-sage/20 rounded-2xl z-10 pointer-events-none translate-x-3 translate-y-3" />
               <Image
-                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                src="/images/team/aria_khanna.png"
                 alt="Aria Khanna - Founder of Glossy Salon"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
